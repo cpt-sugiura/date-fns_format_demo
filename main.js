@@ -13,6 +13,7 @@ function update() {
   exampleEl.innerHTML = `
   <div>yyyy年MM月dd日(E) HH:mm:ss</div><div>${format(_date, 'yyyy年MM月dd日(E) HH:mm:ss', {locale: ja})}</div>
   <div>yyyy年M月d日(E) H:m:s</div><div>${format(_date, 'yyyy年M月d日(E) H:m:s', {locale: ja})}</div>
+  <div>yyyy年M月d日(E) a h:m:s</div><div>${format(_date, 'yyyy年M月d日(E) a h:m:s', {locale: ja})}</div>
   <div>G yo mo do(E) Ho mo so</div><div>${format(_date, 'G yo mo do(E) Ho mo so', {locale: ja})}</div>
   <div>a ho mo</div><div>${format(_date, 'a ho mo', {locale: ja})}</div>
   <div>Q</div><div>${format(_date, 'Q', {locale: ja})}</div>
