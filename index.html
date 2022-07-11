@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <a href="https://date-fns.org/v2.28.0/docs/format" target="_blank">date-fns フォーマットリファレンス</a>
+    <div class="input">
+      <label for="date">date = </label><span>new Date(<input type="text" id="date" name="date" value="2022-02-07 15:04:37">);</span>
+      <label for="format">display = </label><span>format(date, <input type="text" id="format" name="format" value="yyyy-MM-dd HH:mm:ss">);</span>
+    </div>
+    <div id="display">
+      <span>display</span>
+      <div id="display-body"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
